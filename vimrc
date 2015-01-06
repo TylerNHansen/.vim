@@ -15,6 +15,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'benmills/vimux'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'ntpeters/vim-better-whitespace'
@@ -45,3 +46,9 @@ set clipboard=unnamed
 
 " git fugitive config
 :set diffopt+=vertical
+
+" center cursor on screen
+set scrolloff=999
+
+" swapfiles are always annoying and never useful
+set noswapfile
